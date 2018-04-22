@@ -383,7 +383,7 @@ html, body, .notepad-post-container, .notepad-post-header {
   z-index: 9999; }
   .notepad-page-menu-header .notepad-blog-logo,
   .notepad-post-menu-header-simple .notepad-blog-logo {
-    display: inline-block;
+    display: inline-grid;
     max-height: 5rem; }
     .notepad-page-menu-header .notepad-blog-logo img,
     .notepad-post-menu-header-simple .notepad-blog-logo img {

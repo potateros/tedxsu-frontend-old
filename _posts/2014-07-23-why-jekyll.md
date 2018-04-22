@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Why Jekyll?"
-description: 
-headline: 
+title: "Luminosity 2016"
+description:
+headline:
 modified: 2014-07-23
-category: webdevelopment
-tags: [jekyll]
-imagefeature: 
-mathjax: 
-chart: 
+imagefeature:
+mathjax:
+chart:
 comments: true
 featured: true
 ---

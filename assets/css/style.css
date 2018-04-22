@@ -143,8 +143,8 @@ main, .notepad-share-icons, .notepad-disqus {
   background: white;
   padding: 10px;}
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
-    display: inline-grid;
-    max-height: 5rem;
+    /* display: inline-grid; */
+    /* max-height: 5rem; */
     height: 50%;
     width: 50%;}
     .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
@@ -374,7 +374,7 @@ nav.pagination {
     float: none;
     text-align: center;
     font-size: 0.8125rem;
-    padding-top: 3.75rem;
+    padding-top: 2.75rem;
     padding-bottom: 1.25rem; }
     .notepad-site-footer .copyright a {
       color: white; }
@@ -388,7 +388,7 @@ nav.pagination {
     .notepad-site-footer .social-icons,
     .notepad-site-footer .copyright {
       width: 49%;
-      padding: 5rem; }
+      padding: 2rem 10em; }
     .notepad-site-footer .copyright {
       text-align: left;
       float: left; }
