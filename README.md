@@ -1,6 +1,8 @@
 # TEDxSunwayUniversity Website
 
-Built with Jekyll and Bulma
+![](/images/tedxsu-logo-main.png)
+
+Built with Jekyll, Bootstrap, Font Awesome
 
 ### To Create New Posts/Pages
 
@@ -46,5 +48,5 @@ Then open `http://localhost:4000`
 
 ### Credits
 
-The site was built with Jekyll, and Font-Awesome. Everything else was built with :heart: and care.
+The site was built with Jekyll, Bootstrap, and Font Awesome. Everything else, :heart: and care.
 
