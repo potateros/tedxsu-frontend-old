@@ -1,48 +1,38 @@
-<footer class="notepad-site-footer">
-    <div class="copyright">
-        <section>All content copyright <a href="{{ site.url }}/about">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
-    </div>
-    <div class="social-icons">
+<footer class="page-footer font-small red pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-        <a href="https://goo.gl/maps/jj69WVgNcdn">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-map-marker fa-stack-1x"></i>
-            </span>
-        </a>
-        {% if site.owner.email %}
-        <a href="mailto:{{ site.owner.email }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-envelope fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.twitter %}
-        <a href="http://twitter.com/{{ site.owner.twitter }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.instagram %}
-        <a href="http://instagram.com/{{ site.owner.instagram }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-instagram fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.facebook %}
-        <a href="http://facebook.com/{{ site.owner.facebook }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-    </div>
+        <div class="mb-4 flex-center py-1">
 
-    <div class="cf"></div>
+          <a href="{{ site.location }}" target="_blank">
+            <i class="fa fa-map-marker fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a href="mailto:{{ site.email }}" target="_blank">
+            <i class="fa fa-envelope-o fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a href="http://twitter.com/{{ site.twitter }}" target="_blank">
+            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a href="http://instagram.com/{{ site.instagram }}" target="_blank">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a href="http://facebook.com/{{ site.facebook }}" target="_blank">
+            <i class="fa fa-facebook-official fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-1">
+    &copy; {{ site.time | date: '%Y' }}
+    <a href="/about.html">
+      {{ site.owner }}
+    </a>
+  </div>
 </footer>

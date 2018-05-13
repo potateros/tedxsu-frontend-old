@@ -1,27 +1,50 @@
-Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
-  
-Main Features:
+# TEDxSunwayUniversity Website
 
-* Zurb Foundation 5 – css framework
-* Scss files with settings file
-* Fullscreen post covers with header wich will be bright or dark according to background image
-* Fast and light
-* Font Awesome
-* Disqus comments integration
+Built with Jekyll and Bulma
 
-You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
+### To Create New Posts/Pages
 
-Credits:
+Add your new post/page into `_posts` and name it in this format:
 
-* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
-* Font Awesome [http://fontawesome.io](http://fontawesome.io)
-* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
-* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
-* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
-* There are also tools like jQuery, Modernizr, Normalize.
+```
+YEAR-MONTH-DAY-title.MARKUP
+```
 
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
+For example, a post created on the 25th of May, 2018, with the title 'Welcoming New Students' created in HTML would be named
+
+```
+2018-05-25-welcomeing-new-students.html
+```
+
+You can use markdown (CommonMark) or HTML for new posts, and don't forget to include the YAML Front Matter.
+
+For most posts, just add this to the top of the page.
+
+```
+---
+layout: post
+title: [YOUR TITLE HERE]
+---
+```
+
+For more information on how to use Jekyll, and how to modify this website in general, check out [Jekyll's Docs](https://jekyllrb.com/docs/home/)
 
 
-Warm Regards and Stay Creative,  
-Hossain Mohd. Faysal
+### Building the site
+
+To build the site, you will need Ruby, Ruby Gems, Bundler, and Jekyll
+
+You can check out [Jekyll Docs](https://jekyllrb.com/docs/home/) on how to install all the necessary components to build the site.
+
+To build:
+
+```bash
+bundle exec jekyll serve
+```
+
+Then open `http://localhost:4000`
+
+### Credits
+
+The site was built with Jekyll, and Font-Awesome. Everything else was built with :heart: and care.
+

@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    {% include head.html %}
+  {% include head.html %}
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-    <header class="notepad-site-head">
-        {% include navbar.html %}
-        <div class="notepad-site-head-content" >
-            <div class="notepad-site-head-bg"></div>
-            <h1 class="notepad-blog-title">
-                <span class="notepad-site-head-title-bg">
-                    {{ site.title }}
-                </span>
-            </h1>
-            <h2 class="notepad-blog-description">{{ post.description }}</h2>
-        </div>
-    </header>
-    <main class="notepad-content" role="main">
-        {{ content }}
-    </main>
-    {% include footer.html %}
-    {% include scripts.html %}
+<body>
+  {% include navbar.html %}
+
+  <div>
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+  {% include scripts.html %}
 </body>
 </html>
