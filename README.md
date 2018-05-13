@@ -4,32 +4,46 @@
 
 Built with Jekyll, Bootstrap, Font Awesome
 
-### To Create New Posts/Pages
+### Adding new pages
 
-Add your new post/page into `_posts` and name it in this format:
+In Jekyll, you can separate different webpage components so that you do not need to copy-paste the same thing everywhere when a small change is made to, for example, the footer.
+
+
+Example:
+```
+{% includes footer.html %}
+```
+means to slap footer.html in `/_includes/` at the position specified.
+
 
 ```
-YEAR-MONTH-DAY-title.MARKUP
+{ site.url }
+```
+is a variable located in `_config.yml` that allows you to change variables without modifying every single instance of the site url.
+
+You will need to include Front Matter as specified in [Jekyll Docs](https://jekyllrb.com/docs/home/) for every new page if you want to use the page templates/layouts in `_layouts`. You can do this by adding two lines of triple dashes and then
+```
+---
+layout: [INSERT LAYOUT OF CHOICE]
+title: [INSERT PAGE TITLE]
+permalink: [INSERT PERMALINK IF NEEDED]
+---
 ```
 
-For example, a post created on the 25th of May, 2018, with the title 'Welcoming New Students' created in HTML would be named
-
-```
-2018-05-25-welcomeing-new-students.html
-```
-
-You can use markdown (CommonMark) or HTML for new posts, and don't forget to include the YAML Front Matter.
-
-For most posts, just add this to the top of the page.
-
-```
+To add new event pages, for example, a template for it would be
+```html
 ---
 layout: post
-title: [YOUR TITLE HERE]
+title: Event name 2010
+permalink: /events/2010-event-name
 ---
+<div>
+  <!--
+    Your awesome content here
+  -->
+</div>
 ```
-
-For more information on how to use Jekyll, and how to modify this website in general, check out [Jekyll's Docs](https://jekyllrb.com/docs/home/)
+and the head, navbar, footer, and scripts would all be included because of the layout templates.
 
 
 ### Building the site
