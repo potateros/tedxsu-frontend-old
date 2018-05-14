@@ -6,4 +6,6 @@ $fa-font-path:        "/fonts/font-awesome";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "font-awesome/font-awesome";
-
+@import "mdb/mdb";
+@import "bootstrap/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto');

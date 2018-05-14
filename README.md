@@ -17,9 +17,11 @@ means to slap footer.html in `/_includes/` at the position specified.
 
 
 ```
-{ site.url }
+{{ site.url }}
 ```
-is a variable located in `_config.yml` that allows you to change variables without modifying every single instance of the site url.
+is a variable located in `_config.yml` that allows you to change variables without modifying every single instance of the site url. Note the double curly braces.
+
+Single curly braces with the percent sign `{% %}` are for logical statements, double curly braces `{{  }}` are for variables.
 
 You will need to include Front Matter as specified in [Jekyll Docs](https://jekyllrb.com/docs/home/) for every new page if you want to use the page templates/layouts in `_layouts`. You can do this by adding two lines of triple dashes and then
 ```

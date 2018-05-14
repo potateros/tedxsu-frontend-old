@@ -11,38 +11,55 @@ permalink: /contact
 <div class="container">
   <div class="row">
     <div class="col-md-6 text-center" style="padding-top: 40px">
-      <p>
+      <h5 style="padding-bottom: 20px">
         For enquiries, you can contact us via
+      </h5>
+
+      <a href="mailto:{{ site.email }}" target="_blank">
+        <button type="button" class="btn btn-elegant contact-buttons">
+          <i class="fa fa-envelope left"></i>
+          Email
+        </button>
+      </a>
+      <br>
+
+      <a href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <button type="button" class="btn btn-info waves-effect waves-light contact-buttons" id="twitter">
+          <i class="fa fa-twitter left"></i>
+          Twitter
+        </button>
+      </a>
+      <br>
+
+      <a href="http://instagram.com/{{ site.instagram }}" target="_blank">
+        <button type="button" class="btn waves-effect waves-light contact-buttons" id="instagram">
+          <i class="fa fa-instagram left"></i>
+          Instagram
+        </button>
+      </a>
+      <br>
+
+      <a href="http://facebook.com/{{ site.facebook }}" target="_blank">
+        <button type="button" class="btn waves-effect waves-light contact-buttons" id="facebook">
+          <i class="fa fa-facebook left"></i>
+          Facebook
+        </button>
+      </a>
+      <br>
+
+      <h5 style="padding-top: 60px">
+        Our address is:
+      </h5>
+      <p>
+        Sunway University, Jalan University, <br>
+        Bandar Sunway, 47500, Selangor, Malaysia
       </p>
-
-      <button type="button" class="btn btn-elegant contact-buttons">
-        <i class="fa fa-envelope left"></i>
-        Email
-      </button>
-      <br>
-
-      <button type="button" class="btn btn-info waves-effect waves-light contact-buttons" id="twitter">
-        <i class="fa fa-twitter left"></i>
-        Twitter
-      </button>
-      <br>
-
-      <button type="button" class="btn waves-effect waves-light contact-buttons" id="instagram">
-        <i class="fa fa-instagram left"></i>
-        Instagram
-      </button>
-      <br>
-
-      <button type="button" class="btn waves-effect waves-light contact-buttons" id="facebook">
-        <i class="fa fa-facebook left"></i>
-        Facebook
-      </button>
     </div>
 
     <div class="col-md-6 text-center" id="contact-form" style="padding-top: 40px">
-      <p>
+      <h5>
         Or you can contact us via the form below:
-      </p>
+      </h5>
       <form action="/action_page.js">
         <label for="name">Name: </label>
         <input type="text" id="name" name="name" placeholder="Your Name">
@@ -56,14 +73,17 @@ permalink: /contact
     </div>
   </div>
 
-  <div class="row">
-    <div class="col text-center" style="padding-top: 40px">
-      <h2>We are located here:</h2>
+  <div class="row" style="padding-top: 40px">
+    <div class="col-md-6 text-center" id="facebook-widget">
+      <h3>Our Facebook page:</h3>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftedxsunwayuniversity%2F&tabs=timeline&width=600&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1877249322544137"
+            width="600" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </div>
-  </div>
-  <div class="row">
-    <div class="col map text-center">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0996377109896!2d101.60106052782015!3d3.0680395585011975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c8f5912644b%3A0x77612fa0225cad69!2sSunway+University!5e0!3m2!1sen!2smy!4v1508130707217" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+    <div class="col-md-6 text-center" id="google-maps">
+      <h3>We are located here:</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0996377109896!2d101.60106052782015!3d3.0680395585011975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c8f5912644b%3A0x77612fa0225cad69!2sSunway+University!5e0!3m2!1sen!2smy!4v1508130707217"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
