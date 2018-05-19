@@ -7,8 +7,8 @@
 title       : TEDxSunwayUniversity - Ideas Worth Spreading
 owner       : TEDxSunwayUniversity
 description : The official website for TEDxSunwayUniversity
-# baseurl     : "/tedxsu-frontend"
-url         : "http://tedxsunwayuniversity.com"
+baseurl     : "/tedxsu-frontend"
+url         : "https://potateros.github.io"
 email       : admin@tedxsunwayuniversity.com
 twitter     : TEDxSunwayUni
 instagram   : tedxsunwayuniversity
