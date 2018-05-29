@@ -1,5 +1,7 @@
 # TEDxSunwayUniversity Website
 
+![](https://travis-ci.com/potateros/tedxsu-frontend.svg?token=SGsSWGYhNfvnsPLrbPiA&branch=master)
+
 ![](/images/tedxsu-logo-main.png)
 
 Built with Jekyll, Bootstrap, Font Awesome
