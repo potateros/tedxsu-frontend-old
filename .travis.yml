@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.3.3
+
+before_script:
+  - chmod +x ./cibuild
+
+script: ./cibuild
+
+sudo: false
