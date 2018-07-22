@@ -60,15 +60,17 @@ permalink: /contact
       <h5>
         Or you can contact us via the form below:
       </h5>
-      <form action="/action_page.js">
-        <label for="name">Name: </label>
-        <input type="text" id="name" name="name" placeholder="Your Name">
-        <label for="email">Email Address: </label>
-        <input type="email" id="email" name="email" placeholder="Your Email Address">
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Questions? Inquiries?" style="height:170px"></textarea>
-        <br>
-        <input type="submit" class="btn btn-default" value="Submit">
+      <form name="contact" id="contact-form" method="post" role="form" netlify>
+        <fieldset>
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required="required">
+          <label for="email">Email Address: </label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required="required">
+          <label for="subject">Subject: </label>
+          <textarea id="subject" name="subject" placeholder="Questions? Inquiries?" style="height:170px" required="required"></textarea>
+          <br>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </fieldset>
       </form>
     </div>
   </div>
@@ -87,3 +89,5 @@ permalink: /contact
     </div>
   </div>
 </div>
+
+<scipt src="./mailer.js"></scipt>

@@ -635,3 +635,8 @@ table td {
 .highlight .il {
   color: #099;
 }
+
+#timer {
+  color: #a00;
+  text-align: center;
+}

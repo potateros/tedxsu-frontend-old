@@ -1,0 +1,24 @@
+{
+  "name": "tedxsu-frontend",
+  "version": "1.0.0",
+  "description": "TEDxSU frontend",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potateros/tedxsunwayuniversity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potateros/tedxsunwayuniversity/issues"
+  },
+  "homepage": "https://github.com/potateros/tedxsunwayuniversity#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "expressjs": "^1.0.1",
+    "nodemailer": "^4.6.5"
+  }
+}
