@@ -1,8 +1,8 @@
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
-.page-title{
+.page-title {
   padding-top: 20px;
   color: #e62b1e;
   font-weight: bold;
@@ -62,22 +62,22 @@ a:hover{
 }
 
 #2015-youtube {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 #2015-youtube iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.speaker-profile img{
+.speaker-profile img {
   border-radius: 50%;
-  border:4px solid;
+  border: 4px solid;
   margin-left: 22%;
   margin-bottom: 10px;
 }
@@ -94,22 +94,22 @@ a:hover{
   margin-bottom: 0px;
 }
 
-#site-logo img{
+#site-logo img {
   max-height: 3em;
   padding-bottom: 5px;
 }
 
-@media (max-width: 999px){
-  .speaker-profile img{
+@media (max-width: 999px) {
+  .speaker-profile img {
     border-radius: 50%;
-    border:4px solid;
+    border: 4px solid;
     margin-left: 28%;
     margin-bottom: 10px;
   }
 }
 
-@media (max-width: 480px){
-  #site-logo img{
+@media (max-width: 480px) {
+  #site-logo img {
     max-height: 2.2em;
   }
 
@@ -119,21 +119,21 @@ a:hover{
     height: 280px;
   }
 
-  h1{
+  h1 {
     font-size: 2em;
   }
 }
 
 #twitter {
-  background-color: #55acee
+  background-color: #55acee;
 }
 
 #facebook {
-  background-color: #3b5998
+  background-color: #3b5998;
 }
 
 #instagram {
-  background-color: #2e5e86
+  background-color: #2e5e86;
 }
 
 .contact-buttons {
@@ -145,7 +145,10 @@ a:hover{
   padding-right: 40px;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type='text'],
+input[type='email'],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -154,8 +157,8 @@ input[type=text], input[type=email], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
+input[type='submit'] {
+  background-color: #4caf50;
   color: white;
   padding: 12px 20px;
   border: none;
