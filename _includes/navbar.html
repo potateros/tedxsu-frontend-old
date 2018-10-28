@@ -1,3 +1,15 @@
+<style>
+  #ie-warning {
+    display:none;
+  }
+
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #ie-warning {
+      display:inherit;
+    }
+  }
+</style>
+
 <header class="site-header">
 
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -9,6 +21,9 @@
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div id="ie-warning">Please use a different browser for best experience. <a href="https://www.mozilla.org/en-US/firefox/new/">Get
+        Firefox here</a>.</div>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
